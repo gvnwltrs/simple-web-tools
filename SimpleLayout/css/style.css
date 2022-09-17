@@ -1,13 +1,10 @@
 * {
-    /* ?? */
+    background-color: #33B8FF;
 }
 
 .header {
     border: 2px solid black;
     margin: 10px;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
 }
 
 #title {
@@ -16,25 +13,37 @@
     text-align: center;
 }
 
+.pageContainer {
+    display: flex;
+    height: 100%
+}
+
 .nav {
     border: 2px solid black; 
-    width: 30px;
+    width: 70px;
     display: flex;
-    flex-direction: column;
-    flex: 1;
-    height: 100%;
+    flex-direction: row;
     margin: 10px;
+    justify-content: center;
+    align-items: center;
 }
 
 .mainContent {
     border: 2px solid black; 
     margin: 10px;
-    width: 200px;
     display: flex;
-    flex-direction: row;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
 }
 
+
+
 .footer {
+    height: 50px;
     border: 2px solid black; 
     margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
