@@ -1,0 +1,40 @@
+* {
+    /* ?? */
+}
+
+.header {
+    border: 2px solid black;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+#title {
+    /* text-align: center; */
+    color: #363945;
+    text-align: center;
+}
+
+.nav {
+    border: 2px solid black; 
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    height: 100%;
+    margin: 10px;
+}
+
+.mainContent {
+    border: 2px solid black; 
+    margin: 10px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer {
+    border: 2px solid black; 
+    margin: 10px;
+}
