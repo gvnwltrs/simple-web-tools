@@ -1,0 +1,84 @@
+body {
+    margin: 0 auto;
+    background-color: gainsboro;
+}
+
+.container {
+    width: 1000px;
+    height: auto; 
+    background-color: white; 
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    /* background-image: url("https://cdn.pixabay.com/photo/2021/09/12/07/58/banner-6617550_640.png"); */
+    margin-bottom: 30px;
+    margin-left: 1px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: cornsilk;
+}
+
+.header .nav {
+    flex: 1;
+}
+
+.menu {
+}
+
+.menu li {
+    display: inline-block;
+    padding: 0 8px;
+} 
+
+.menu li a {
+    list-style: none;
+    text-decoration: none; 
+    padding: 2px 2px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.menu li a:hover {
+    background-color: bisque;
+}
+
+.menu li:hover .dropdownItems {
+    display: block;
+    background-color:blanchedalmond;
+}
+
+.dropdownItems {
+    display: none; 
+    position: absolute;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.dropdownItems li {
+    display: block;
+    padding-top: 3px;
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+    margin: 20px 10px;
+    padding: 0;
+}
+
+.search input {
+    /* margin-right: 5px; */
+}
+
+.search form {
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.mainContent {
+    
+}

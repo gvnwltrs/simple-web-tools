@@ -3,82 +3,96 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Example HTML</title>
+    <title>Basic Website</title>
     <meta name="description" content="...">
+    <link rel="stylesheet" href="css/style.css">
 </head>
     
 <body>
-    <header>
+    <div class="container">
+
+        <header class="header">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="https://cdn.iconscout.com/icon/free/png-256/cloud-data-safe-storage-website-internet-skydrive-2-7223.png" alt="">
+                </a>
+            </div>
+            
+            <nav class="nav">
+                <ul class="menu">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a>
+                        <ul class="dropdownItems">
+                            <li><a href="">Services 1</a></li>
+                            <li><a href="">Services 2</a></li>
+                            <li><a href="">Services 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Contacts</a></li>
+                </ul>
+            </nav>
+
+            <div class="search">
+                <form>
+                    <input type="search" name="search" placeholder="search site">
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+
+        
+        </header>
+
+        <section class="mainContent">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/002/380/002/small/diagonal-abstract-banner-with-blue-and-purple-template-free-vector.jpg">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsJSKv6VNQjS2ocnen_IwkptBYpowf9Ntdag&usqp=CAU">
+        </section>
+
+        <footer>
+            <div>
+                <h3>Footer Menu</h3>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Contacts</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Footer Menu</h3>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Contacts</a></li>
+                </ul>
+            </div>
+            <div>
+                <h3>Footer Menu</h3>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Products</a></li>
+                    <li><a href="">Contacts</a></li>
+                </ul>
+            </div>
+            <div>
+            <address>
+                    <p>#100, Someplace, Somewhere far, 54259</p>
+                    <p><a href="mailto:contact@somewhere.com"></a></p>
+                    <p><a href="tel:12345678"></a>12345678</p>
+            </address>
+            </div>
+        </footer>
+
         <div>
-            <a href="index.html">
-                <img src="https://cdn.pixabay.com/photo/2021/09/12/07/58/banner-6617550_640.png" alt="">
-            </a>
-        </div>
-        <div>
-            <form>
-                <input type="search" name="search" placeholder="search site">
-                <input type="submit" value="Submit">
-            </form>
+            <p>Copyright &copy; 2022. All Rights Reserved.</p>
         </div>
 
-        <nav>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Products</a></li>
-                <li><a href="">Contacts</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section>
-        <img src="https://static.vecteezy.com/system/resources/thumbnails/002/380/002/small/diagonal-abstract-banner-with-blue-and-purple-template-free-vector.jpg">
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRsJSKv6VNQjS2ocnen_IwkptBYpowf9Ntdag&usqp=CAU">
-    </section>
-
-    <footer>
-        <div>
-            <h3>Footer Menu</h3>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Products</a></li>
-                <li><a href="">Contacts</a></li>
-            </ul>
-        </div>
-        <div>
-            <h3>Footer Menu</h3>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Products</a></li>
-                <li><a href="">Contacts</a></li>
-            </ul>
-        </div>
-        <div>
-            <h3>Footer Menu</h3>
-            <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">About</a></li>
-                <li><a href="">Services</a></li>
-                <li><a href="">Products</a></li>
-                <li><a href="">Contacts</a></li>
-            </ul>
-        </div>
-        <div>
-           <address>
-                <p>#100, Someplace, Somewhere far, 54259</p>
-                <p><a href="mailto:contact@somewhere.com"></a></p>
-                <p><a href="tel:12345678"></a>12345678</p>
-           </address>
-        </div>
-    </footer>
-
-    <div>
-        <p>Copyright &copy; 2022. All Rights Reserved.</p>
     </div>
 </body>
 
