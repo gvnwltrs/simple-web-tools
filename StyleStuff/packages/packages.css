@@ -2,11 +2,20 @@ main {
     padding-top: 32px;
 }
 
+.background {
+    background: url("../images/plans-background.jpg");
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1;
+}
+
 .plan {
     width: 80%;
     margin: 16px 0;
     border: 4px solid hsl(92, 41%, 26%);
     border-left: none;
+    position: relative;
 }
 
 .plan:hover,
@@ -24,6 +33,17 @@ main {
 
 .plan-title {
     color: black;
+}
+
+.plan-badge {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    font-size: 12px;
+    color: white;
+    background-color: #ff5454;
+    padding: 8px;
 }
 
 .plan-suggestion {
