@@ -91,3 +91,25 @@ main {
 #premium .plan-suggestion {
     color: #bbb;
 }
+
+@media (min-width: 40rem) {
+    main {
+       margin: 3rem auto; 
+       max-width: 62rem;
+    }
+
+    #free {
+        border-right: 4px solid #0e4f1f;
+    }
+}
+
+@media (min-width: 62rem) {
+    .plan {
+        border-left: 4px solid #0e4f1f;
+    }
+
+    #free:hover,
+    #free:active {
+    border-right-color: #ff5454;
+}
+}
