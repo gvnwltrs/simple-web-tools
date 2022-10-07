@@ -5,6 +5,7 @@ html {
 
 body {
     height: 100%;
+    background-color: darkcyan;
 }
 
 .test1 div {
@@ -18,7 +19,8 @@ body {
 .test1:hover div {
     margin-left: 500px;
     background-color: purple;
-    border-radius: 20%
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
 }
 
 .test2 div {
@@ -47,8 +49,8 @@ body {
     width: 100px;
     background-color: red;
     margin-left: 500px;
-    transition: 3s;
-    border-radius: 50%;
+    transition: 1s;
+    /* border-radius: 50%; */
 }
 
 .test3:hover div,
@@ -56,5 +58,15 @@ body {
     margin-left: 0;
     /* margin-top: 500px; */
     background-color: green;
+    border-radius: 50%;
     /* border-radius: 50%; */
+}
+
+p {
+    position: absolute;
+    transform: rotate(45deg);
+    z-index: -1;
+    left: 50%;
+    bottom: 50%;
+    font-size: 100px;
 }
