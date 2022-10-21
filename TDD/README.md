@@ -26,3 +26,14 @@ Now you can start your kata! May we suggest the [FizzBuzz](http://www.tddbuddy.c
 2. initialize the workspace for TDD with `npm init -y' and 'npm install --save-dev jest' 
 3. set 'gitignore' to ignore node_modules
 4. run tests with 'npm test' or 'npm run test'
+
+## Setting up Vitest
+npm install -D vitest
+npm install -D happy-dom
+
+### package.json
+"scripts": {
+
+"test": "vitest --globals"
+
+},
